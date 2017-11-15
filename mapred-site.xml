@@ -19,7 +19,7 @@
 <configuration>
 	<property>
 		<name>mapred.jobtracker</name>
-		<value>localhost:9001</value>
+		<value>localhost:{{uniquePortNumber}}</value>
 	</property>
 	<property>
 		<name>mapreduce.framework.name</name>
